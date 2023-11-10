@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Services - TechGenius</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #35424a;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .design-services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .design-service {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .design-service:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .design-service img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .design-service h3 {
+            margin-top: 10px;
+            color: #35424a;
+        }
+
+        .design-service p {
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #35424a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Design Services</h1>
+        <p>Elevate Your Brand with Cutting-Edge Design Solutions</p>
+    </header>
+
+    <div class="container">
+        <h2>Creative Design Tailored for Success</h2>
+        <p>Our design services combine aesthetics and functionality to create visually appealing and user-friendly solutions.</p>
+
+        <div class="design-services">
+            <div class="design-service">
+                <img src="/ui ux.jpeg" alt="UI/UX Design">
+                <h3>UI/UX Design</h3>
+                <p>Create intuitive and engaging user interfaces that enhance user experience.</p>
+            </div>
+            <div class="design-service">
+                <img src="/branding.png" alt="Branding">
+                <h3>Branding</h3>
+                <p>Develop a unique brand identity that resonates with your target audience.</p>
+            </div>
+            <div class="design-service">
+                <img src="/visual-identity.png" alt="Visual Identity">
+                <h3>Visual Identity</h3>
+                <p>Establish a consistent and visually captivating identity across all platforms.</p>
+            </div>
+            <div class="design-service">
+                <img src="/Motion-Graphics.png" alt="Motion Graphics">
+                <h3>Motion Graphics</h3>
+                <p>Create dynamic visual content that captures attention and tells your story.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TechGenius. All rights reserved.</p>
+    </footer>
+</body>
+</html>

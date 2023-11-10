@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - TechGenius</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 1px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1, h2 {
+            color: #35424a;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .service {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .service:hover {
+            transform: scale(1.05);
+        }
+
+        .service img {
+            max-width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .service h3 {
+            margin-top: 10px;
+            color: #35424a;
+        }
+
+        .service p {
+            color: #666;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #35424a;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Services</h1>
+        <p>Explore the Range of Services We Offer</p>
+    </header>
+
+    <div class="container">
+        <h2>IT Solutions Tailored for You</h2>
+        <p>At TechGenius, we offer a variety of services designed to meet your IT needs and drive your business forward.</p>
+
+        <div class="services">
+            <div class="service">
+               <a href="https://www.ibm.com/topics/software-development"><img src="/software dev.jpg" alt="Custom Software Development"></a>
+                <h3>Software Development</h3>
+                <p>We create tailored software solutions that align with your business goals and enhance operations.</p>
+            </div>
+            <div class="service">
+                <a href="https://www.redhat.com/en/topics/cloud-computing/what-is-cloud-infrastructure"> <img src="/Cloud Infrastructure.jpg" alt="Cloud Infrastructure"></a>
+                <h3>Cloud Infrastructure</h3>
+                <p>Transform your IT infrastructure with scalable and secure cloud solutions for better efficiency.</p>
+            </div>
+            <div class="service">
+                <a href="https://www.ibm.com/topics/cybersecurity"><img src="/Cybersecurity.jpg" alt="Cybersecurity"></a>
+                <h3>Cybersecurity</h3>
+                <p>Protect your valuable data and ensure the security of your systems against cyber threats.</p>
+            </div>
+            <div class="service">
+              <a href="https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning"> <img src="/AI&ML.jpg" alt="AI and Machine Learning"></a> 
+                <h3>AI and Machine Learning</h3>
+                <p>Implement cutting-edge AI and machine learning technologies to gain insights and improve processes.</p>
+            </div>
+            <div class="service">
+                <a href="https://www.blockchain.com/"> <img src="/block.jpg" alt="Block Chain"></a> 
+                  <h3>Block Chain</h3>
+                  <p>Blockchain technology is an advanced database mechanism that allows transparent information sharing within a business network.</p>
+              </div>
+              <div class="service">
+                <a href="https://arvr.google.com/"> <img src="/ar vr.jpg" alt="AR and VR"></a> 
+                  <h3>AR and VR </h3>
+                  <p>AR uses a real-world setting while VR is completely virtual.</p>
+              </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 TechGenius. All rights reserved.</p>
+    </footer>
+</body>
+</html>
